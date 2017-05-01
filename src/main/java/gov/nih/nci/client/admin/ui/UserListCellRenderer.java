@@ -1,10 +1,11 @@
 package gov.nih.nci.client.admin.ui;
 
 import edu.stanford.protege.metaproject.api.User;
-import org.protege.editor.owl.client.diff.ui.GuiUtils;
-
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+
+import org.protege.editor.owl.client.util.GuiUtils;
+
 import java.awt.*;
 
 /**

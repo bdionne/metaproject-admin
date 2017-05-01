@@ -16,8 +16,8 @@ import org.protege.editor.owl.client.LocalHttpClient;
 import org.protege.editor.owl.client.api.Client;
 import org.protege.editor.owl.client.api.exception.AuthorizationException;
 import org.protege.editor.owl.client.api.exception.ClientRequestException;
-import org.protege.editor.owl.client.diff.ui.GuiUtils;
 import org.protege.editor.owl.client.util.Config;
+import org.protege.editor.owl.client.util.GuiUtils;
 import org.protege.editor.owl.ui.UIHelper;
 
 import javax.swing.*;

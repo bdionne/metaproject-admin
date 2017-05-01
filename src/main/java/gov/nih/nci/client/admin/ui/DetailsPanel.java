@@ -9,9 +9,9 @@ import gov.nih.nci.client.admin.model.Detail;
 import org.protege.editor.core.Disposable;
 import org.protege.editor.owl.OWLEditorKit;
 import org.protege.editor.owl.client.ClientSession;
-import org.protege.editor.owl.client.diff.ui.GuiUtils;
 import org.protege.editor.owl.client.event.ClientSessionChangeEvent;
 import org.protege.editor.owl.client.event.ClientSessionListener;
+import org.protege.editor.owl.client.util.GuiUtils;
 
 import javax.swing.*;
 import java.awt.*;

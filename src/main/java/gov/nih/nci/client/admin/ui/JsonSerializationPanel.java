@@ -5,9 +5,9 @@ import org.protege.editor.core.ui.error.ErrorLogPanel;
 import org.protege.editor.owl.OWLEditorKit;
 import org.protege.editor.owl.client.LocalHttpClient;
 import org.protege.editor.owl.client.ClientSession;
-import org.protege.editor.owl.client.diff.ui.GuiUtils;
 import org.protege.editor.owl.client.event.ClientSessionChangeEvent;
 import org.protege.editor.owl.client.event.ClientSessionListener;
+import org.protege.editor.owl.client.util.GuiUtils;
 
 import edu.stanford.protege.metaproject.api.ServerConfiguration;
 import edu.stanford.protege.metaproject.serialization.DefaultJsonSerializer;

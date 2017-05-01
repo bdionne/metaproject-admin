@@ -1,6 +1,6 @@
 package gov.nih.nci.client.admin.ui;
 
-import org.protege.editor.owl.client.diff.ui.GuiUtils;
+import org.protege.editor.owl.client.util.GuiUtils;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

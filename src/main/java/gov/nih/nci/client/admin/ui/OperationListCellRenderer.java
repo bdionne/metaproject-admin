@@ -2,9 +2,10 @@ package gov.nih.nci.client.admin.ui;
 
 import edu.stanford.protege.metaproject.api.Operation;
 import edu.stanford.protege.metaproject.api.OperationType;
-import org.protege.editor.owl.client.diff.ui.GuiUtils;
-
 import javax.swing.*;
+
+import org.protege.editor.owl.client.util.GuiUtils;
+
 import java.awt.*;
 
 /**
