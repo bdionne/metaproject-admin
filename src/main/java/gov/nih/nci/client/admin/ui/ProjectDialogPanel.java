@@ -165,7 +165,7 @@ public class ProjectDialogPanel extends JPanel implements VerifiedInputEditor {
             if (project != null) {
                 name.setText(project.getName().get());
                 description.setText(project.getName().get());
-                Optional<ProjectOptions> options = project.getOptions();
+                com.google.common.base.Optional<ProjectOptions> options = project.getOptions();
                 if (options.isPresent()) {
                     optionsTableModel.setOptions(options.get());
                     projectOptions = options.get().getOptions();
@@ -433,7 +433,7 @@ public class ProjectDialogPanel extends JPanel implements VerifiedInputEditor {
     private Project createProject() {
         PolicyFactory f = ConfigurationManager.getFactory();
         return f.getProject(f.getProjectId(id.getText()), f.getName(name.getText()), f.getDescription(description.getText()),
-                ownerId, Optional.ofNullable(f.getProjectOptions(projectOptions)));
+                ownerId, com.google.common.base.Optional.fromNullable(f.getProjectOptions(projectOptions)));
     }
 
     private void addProject(Project project) {
