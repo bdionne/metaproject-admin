@@ -112,7 +112,7 @@
                         <Include-Resource>{maven-resources}</Include-Resource>
                     </instructions>
                 </configuration>
-                <executions>
+                <!-- executions>
                     <execution>
                         <id>bundle-manifest</id>
                         <phase>install</phase>
@@ -120,7 +120,7 @@
                             <goal>manifest</goal>
                         </goals>
                     </execution>
-                </executions>
+                </executions -->
             </plugin>
         </plugins>
     </build>
