@@ -432,7 +432,7 @@ public class ProjectDialogPanel extends JPanel implements VerifiedInputEditor {
 
     private Project createProject() {
         PolicyFactory f = ConfigurationManager.getFactory();
-        return f.getProject(f.getProjectId(id.getText()), f.getName(name.getText()), f.getDescription(description.getText()),
+        return f.getProject(f.getProjectId(id.getText()), "foo", f.getName(name.getText()), f.getDescription(description.getText()),
                 ownerId, com.google.common.base.Optional.fromNullable(f.getProjectOptions(projectOptions)));
     }
 
